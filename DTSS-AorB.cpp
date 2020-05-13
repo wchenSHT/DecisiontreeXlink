@@ -1351,7 +1351,7 @@ mgfread<-function(df)
     t5<-Sys.time()
     print(t5)
     
-    peptideID2<-read.csv("Type0pep.csv")
+    peptideID2<-read.csv("Allpeps.csv")
     nonphossequence<-as.character(peptideID2$Sequence)
     nonphosAcession<-as.character(peptideID2$Protein_Name)
     nonphosmass<-calmass( nonphossequence)
